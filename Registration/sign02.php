@@ -9,7 +9,7 @@
 <link href="fonts/pacifico/stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<header>
+        <header>
         
 <!--Logo-->
 
@@ -22,8 +22,8 @@
         <div> 
             <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/headernavigation.php'; ?> 
         </div>
-</header>
- 
+        </header>
+
 <!--Scripts-->
 <script type="text/javascript" src=""></script>
 <!--Sliding icons-->
@@ -86,5 +86,5 @@ $(".pass-icon").css("left","0px");
             <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/footer.php'; ?> 
         </div>
     </footer>
-</body
+</body>
 </html>

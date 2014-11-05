@@ -66,7 +66,7 @@
     <a class="boldbuttons01" href="/Registration/reg.html" ><span>Reg</span></a>
             </p><br>
 <p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/Registration/sign2.html" ><span>sign2</span></a>
+    <a class="boldbuttons01" href="/Registration/sign02.php" ><span>sign2</span></a>
             </p><br>
 <p class="buttonwrappermain">
 <a class="boldbuttons01" href="" ><span>About</span></a>
