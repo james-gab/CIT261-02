@@ -6,13 +6,25 @@
       <link href="../css/home_page.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
+<header>
+        
+<!--Logo-->
 
+            <div> 
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/logo_header.php'; ?> 
+            </div>
+       
+<!-- header navigation area -->
+<!--Calls from file headernavigation.php -->
+        <div> 
+            <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/headernavigation.php'; ?> 
+        </div>
 <!--Stylesheets-->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="fonts/pacifico/stylesheet.css" rel="stylesheet" type="text/css" />
  
 <!--Scripts-->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src=""></script>
 <!--Sliding icons-->
 <script type="text/javascript">
 $(document).ready(function() {
@@ -67,5 +79,11 @@ $(".pass-icon").css("left","0px");
 </div>
  
 <!--bg gradient--><div></div><!--END bg gradient-->
-</body>
+<footer>
+<!--Calls Footer from file footer.index.php -->
+        <div> 
+            <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/footer.php'; ?> 
+        </div>
+    </footer>
+</body
 </html>
