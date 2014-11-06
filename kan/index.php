@@ -14,7 +14,7 @@
 
          
 <!-- calls CSS file -->
-<link href="css/home_page.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="../css/home_page.css" rel="stylesheet" type="text/css" media="screen" />
         
         
 <!-- calls Google google_analyticstracking.js -->
@@ -52,24 +52,21 @@
         <p>Testing Home page 2 Under Construction the site will be available soon.</p>
 <!--        <a href="image/index/home_0987.png"><img class="two" src="/image/index/home_0987.gif" alt="Jim Chapman"/></a>
     -->    
-        <p class="homepg">    <!-- place a welcome statement here -->    </p>
+        <p class="homepg">
+<!--            Jim Chapman has many interests, his passion in life is to enjoy every aspect of guitar playing there is. As long as he can pluck a string he will.
+    -->    </p>
         
-        
-                    
             <p class="buttonwrappermain">
-<a class="boldbuttons01" href="/index.php"><span>Seeking Service</span></a> 
+                <a class="boldbuttons01" href="/kan/index.php"><span>Seeking Service</span></a> 
             </p><br>
 <p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/Help/Help.php" ><span>HELP!!!</span></a>
+    <a class="boldbuttons01" href="/kan/success_story.php" ><span>Success Story</span></a>
             </p><br>
 <p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/Registration/reg02.php" ><span>Reg02</span></a>
+    <a class="boldbuttons01" href="/kan/report_service_needs.php" ><span>Report Service Needs</span></a>
             </p><br>
 <p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/Registration/sign02.php" ><span>sign2</span></a>
-            </p><br>
-<p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/kan/index.php" ><span>Kan Index</span></a>
+    <a class="boldbuttons01" href="/kan/sign_in.php" ><span>Sign In</span></a>
             </p><br>
 <p class="buttonwrappermain">
 <a class="boldbuttons01" href="" ><span>About</span></a>
