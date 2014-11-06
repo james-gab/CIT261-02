@@ -366,7 +366,7 @@ p.imgleft1 {
             float: left;   
             text-align: center; 
             clear: left;   
-            min-width: 200px;
+            min-width: 20px;
             margin-left: 20%;
             margin-right: 2%;
             padding: 20px 10px;
@@ -460,9 +460,9 @@ div.movieright2 {
 
             img.seven{
                 border-style: outset;
-                border-width: 5px;
-                width: 300px;
-                height: 420px;
+                border-width: 3px;
+                width: 50px;
+                height: 50px;
                 }
                 
             img.homepage{
