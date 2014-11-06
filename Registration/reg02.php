@@ -22,25 +22,25 @@
         </header>
     <h1>Register</h1>
     <form name="registration">
-        <label>First Name:</label><br/>
-        <input name="First Name" type="text" required="required">
-        <label>Last Name:</label><br/>
-        <input name="Last Name" type="text" required="required">
+        <label>First Name:</label>
+        <input name="First Name" type="text" required="required"><br/>
+        <label>Last Name:</label>
+        <input name="Last Name" type="text" required="required"><br/>
         <br/>
         <label>Password:</label><br/>
         <input name="password" type="password" required="required"><br/>
         <label>Email:</label><br/>
         <input name="email" type="email" required="required"><br/>
-        <input type="submit" value="Register">
         <label>Mobile Number:</label><br/>
         <input name="Mobile Number" type="text" required="required">
-        <br/>
+        <input type="submit" value="Register">
+        
        </form>
-    <input type="checkbox" name="option1" value="Are You Over 18?"> Are You Over 18?<br>
+    <input type="checkbox" name="option1" value="Are You Over 18?"> Are You Over 18?
     <input type="radio" name="group1" value="Male"> Male
-<input type="radio" name="group2" value="Female" checked> Female<br>
-    Already have an account? <a href="sign2.html">Login</a>
-    <button type="button">Create Account</button>
+<input type="radio" name="group2" value="Female" checked> Female
+Already have an account? <a href="sign02.php">Login</a>
+    Create Account<a href="reg02.php">Create Account</a>
     <footer>
 <!--Calls Footer from file footer.index.php -->
         <div> 
