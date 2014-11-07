@@ -49,12 +49,12 @@
     <main>
         
         <h1>Home Page</h1>
-        <p>Testing Home page 2 Under Construction the site will be available soon.</p>
+        <p>Testing Kan Index page </p>
+            <p>Under Construction the site will be available soon.</p>
 <!--        <a href="image/index/home_0987.png"><img class="two" src="/image/index/home_0987.gif" alt="Jim Chapman"/></a>
     -->    
         <p class="homepg">
-<!--            Jim Chapman has many interests, his passion in life is to enjoy every aspect of guitar playing there is. As long as he can pluck a string he will.
-    -->    </p>
+        </p>
         
             <p class="buttonwrappermain">
                 <a class="boldbuttons01" href="/kan/index.php"><span>Seeking Service</span></a> 
@@ -69,7 +69,7 @@
     <a class="boldbuttons01" href="/kan/sign_in.php" ><span>Sign In</span></a>
             </p><br>
 <p class="buttonwrappermain">
-<a class="boldbuttons01" href="" ><span>About</span></a>
+    <a class="boldbuttons01" href="/kan/sign_up_page.php" ><span>Sign Up</span></a>
             </p><br>
 <p class="buttonwrappermain">
 <a class="boldbuttons01" href="/c/contact_main.php" ><span>Contact</span></a>
