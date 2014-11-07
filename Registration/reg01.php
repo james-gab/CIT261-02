@@ -21,7 +21,7 @@
         </header>
         <a href="reg02.php">Register Page</a>
         <a href="sign02.php">Sign Up</a>
-           <footer>
+        <footer>
 <!--Calls Footer from file footer.index.php -->
         <div> 
             <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/footer.php'; ?> 
