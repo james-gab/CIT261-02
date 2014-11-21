@@ -347,16 +347,17 @@ p.right1  {
             padding: 20px 10px;
 }
 p.homepg {
-            /*background: #C6E746;*/
+            background: #C6E746;
             width: 45%;   
-            float: left;
+            float: none;
             clear: left;
             font-size: 150%;
-            text-align: justify; 
+            text-align: center;
+            /*text-align: justify;*/ 
             text-indent: each-line 2em;
             min-width: 200px;
             margin-left: 20%;
-            margin-right: 2%;
+            margin-right: 20%;
             padding: 20px 10px;
 }
 p.imgleft1 {
@@ -629,13 +630,16 @@ padding-right: 0.5em;*/
 .buttonwrappermain{ /* Container you can use to surround a CSS button to clear float */
 overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
 width: 46em;
-/*background: #090;*/
+background: #090;
 clear: both;
 margin-left: auto;
 margin-right: auto;
-padding-left: 0.5em;
-padding-right: 0.5em;
+/*padding-left: 0.5em;
+padding-right: 0.5em;*/
+padding-left: auto;
+padding-right: auto;
 text-align: center;
+
     
 } 
 
@@ -729,7 +733,7 @@ p.homepg {
 /*            background: #8C8;*/
             width: 45%;   
             font-size: 125%;
-            text-align: justify; 
+            /*text-align: justify;*/ 
             text-indent: 2em;
             margin-left: 0;
             margin-right: 0;
@@ -983,7 +987,7 @@ p.homepg {
             width: 100%;   
             font-size: 100%;
             float: none;   
-            text-align: justify; 
+            /*text-align: justify;*/ 
             text-indent: 2em;
             clear: both;   
             margin-left: auto;

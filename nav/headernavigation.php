@@ -10,7 +10,7 @@
 <!--
 <a class="boldbuttons01" href="/w/p/projects_main.php" ><span>Projects</span></a>
 <a class="boldbuttons" href="/w/aj/about_main.php" ><span>About</span></a>
--->
+
 <a class="boldbuttons" href="/c/contact_main.php" ><span>Contact</span></a>
-        </p>
+ -->       </p>
 <!--</div>-->

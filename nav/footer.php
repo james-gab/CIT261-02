@@ -4,7 +4,7 @@
 
 <ul class="ft1">
     <li class="ft02"><a href="/index.php" title="Go to Home page">Home</a></li>
-    <!--<li class="ft02"><a href="/assessments/deliberate-practice.php" title="View the Deliberate Practice Plan">Deliberate Practice</a></li>-->
+    <li class="ft02"><a href="/c/contact_main.php" title="Contact">Contact Us</a></li>
     <!--<li class="ft02"><a href="/assessments/site-plan.php" title="View the Site Plan">Site Plan</a></li>-->
 </ul>
 <ul class="ft3">

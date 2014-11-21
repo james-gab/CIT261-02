@@ -47,15 +47,17 @@
 
 <!-- Main body -->
     <main>
-        
-        <h1>Home Page</h1>
         <p>Testing Home page 2 Under Construction the site will be available soon.</p>
+        <p>iServe is your source for serving others!</p>
+        
+        <h1>iServe Home Page</h1>
+        <p></p>
 <!--        <a href="image/index/home_0987.png"><img class="two" src="/image/index/home_0987.gif" alt="Jim Chapman"/></a>
     -->    
-        <p class="homepg">    <!-- place a welcome statement here -->    </p>
+    <p class="homepg">    iServe is here to help you serve.<br>Select Sign In to get started.<br><br>Don't have an account yet? <br>Choose the Registration button and sign up now.<!-- place a welcome statement here -->    </p>
         
         
-                    
+    <div>           
             <p class="buttonwrappermain">
 <a class="boldbuttons01" href="/index.php"><span>Seeking Service</span></a> 
             </p><br>
@@ -77,8 +79,11 @@
 <p class="buttonwrappermain">
 <a class="boldbuttons01" href="/c/contact_main.php" ><span>Contact</span></a>
             </p>
-
-            <h1>This is a TEST button</h1>
+    </div>
+            <br><br>
+            <h1>A Message from President Uchtdorf</h1><br>
+            <p>President Uchtdorf cautioned the world is full of self justification and narcissism, worldly values stress we look out for our own self interests. We are seeing a generation of all about me individuals with little care for others and their plight. The Lord however has stressed carrying for the poor and needy is one of the Four duties of the church as found in Doctrine and Covenants section 58 where we are issued a call to serve and are expected to answer. </p>
+            
             
         
     </main>
