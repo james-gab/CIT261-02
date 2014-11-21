@@ -78,6 +78,8 @@ $(".pass-icon").css("left","0px");
 <!--end login form-->
  
 </div>
+Do not already have an account?  .<a href="reg02.php">Create Account</a>
+
  
 <!--bg gradient--><div></div><!--END bg gradient-->
 <footer>
