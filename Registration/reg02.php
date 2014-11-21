@@ -40,7 +40,8 @@
     <input type="radio" name="group1" value="Male"> Male
 <input type="radio" name="group2" value="Female" checked> Female
 Already have an account? <a href="sign02.php">Login</a>
-    Create Account<a href="reg02.php">Create Account</a>
+<!--    Create Account<a href="reg02.php">Create Account</a>
+-->
     <footer>
 <!--Calls Footer from file footer.index.php -->
         <div> 

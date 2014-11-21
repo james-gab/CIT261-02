@@ -5,9 +5,9 @@
 
         <p class="buttonwrapper">
 <a class="boldbuttons01" href="/index.php"><span>Home</span></a> 
+<a class="boldbuttons" href="../Registration/sign02.php" ><span>Sign In</span></a>
+<a class="boldbuttons" href="../Registration/reg02.php" ><span>Register</span></a>
 <!--
-<a class="boldbuttons" href="/w/m/music_main.php" ><span>Music</span></a>
-<a class="boldbuttons" href="/w/a/activities_main.php" ><span>Activities</span></a>
 <a class="boldbuttons01" href="/w/p/projects_main.php" ><span>Projects</span></a>
 <a class="boldbuttons" href="/w/aj/about_main.php" ><span>About</span></a>
 -->
