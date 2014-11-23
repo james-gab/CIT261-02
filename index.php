@@ -77,7 +77,9 @@
 <a class="boldbuttons01" href="" ><span>About</span></a>
             </p><br>
 <p class="buttonwrappermain">
-<a class="boldbuttons01" href="kan1/home.php" ><span>Kan 11.22.2014</span></a>
+<a class="boldbuttons01" href="kan1/index.php" ><span>Kan(index) 11.22.2014</span></a>
+<a class="boldbuttons01" href="kan1/home.php" ><span>Kan(home) 11.22.2014</span></a>
+<a class="boldbuttons01" href="kan1/sign_in.php" ><span>Kan(sign_in) 11.22.2014</span></a>
             </p><br>
 <p class="buttonwrappermain">
 <a class="boldbuttons01" href="/c/contact_main.php" ><span>Contact</span></a>
