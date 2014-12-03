@@ -59,7 +59,7 @@
         
         
         
-        <form method="post" action="index.php" id="contactform">
+        <form class="contact" method="post" action="index.php" id="contactform">
 
 <fieldset>
     <p>All fields are required.</p> 

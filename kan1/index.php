@@ -7,7 +7,9 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Registration</title>
+        <title>Registration&#32;page&#32;&#124;&#32;iServe&#46;com</title>
+        
+        <link href="../css/home_page.css" rel="stylesheet" type="text/css"/>
         
 
     <script type="text/javascript">
@@ -66,8 +68,32 @@ and open the template in the editor.
     </head>
     
     <body>
+        <header>
         
+<!--Logo-->
 
+            <div> 
+                <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/logo_header.php'; ?> 
+            </div>
+       
+<!-- header navigation area -->
+<!--Calls from file headernavigation.php -->
+        <div> 
+            <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/headernavigation.php'; ?> 
+        </div>
+        </header>
+
+
+
+<!-- Main body -->
+    <main>
+        
+        <h2>Registration Page</h2>
+        <br>
+        
+        
+        
+<!--
     <form name="reg" action="code_exec.php" onsubmit="return validateForm()" method="post">
     <table width="274" border="0" align="center" cellpadding="2" cellspacing="0">
     <tr>
@@ -116,5 +142,73 @@ and open the template in the editor.
     </tr>
     </table>
     </form>
+-->
+<!-- +++++++++++++++++++++updated CSS format++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <form class="reg" name="reg" action="code_exec.php" onsubmit="return validateForm()" method="post">
+        <fieldset>
+        <table>
+            <tr>
+                <td>
+                    <div align="center">
+                        <?php
+                            $remarks=$_GET['remarks'];
+                            if ($remarks==null and $remarks==""){
+                                echo 'Register Here';
+                                }
+                            if ($remarks=='success'){
+                                echo 'Registration Success';
+                                }
+                        ?>	
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="r">First&#32;Name&#58;</td>
+                <td><input type="text" name="fname" id="firstname" value="<?php echo $fname;?>"></td>
+            </tr>
+            <tr>
+                <td class="r">Last&#32;Name&#58;</td>
+                <td><input type="text" name="lname" /></td>
+            </tr>
+            <tr>
+                <td class="r">Gender&#58;</td>
+                <td><input type="text" name="mname" /></td>
+            </tr>
+            <tr>
+                <td class="r">Contact&#32;No&#46;&#58;</td>
+                <td><input type="text" name="contact" /></td>
+            </tr>
+            <tr>
+                <td class="r">Username&#58;</td>
+                <td><input type="text" name="username" /></td>
+            </tr>
+            <tr>
+                <td class="r">Password&#58;</td>
+                <td><input type="password" name="password" /></td>
+            </tr>
+            <tr>
+                <td class="r"></td>
+                <td><input name="submit" type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+        </fieldset>
+    </form>
+
+
+
+
+
+    </main>
+
+    
+    <footer>
+<!--Calls Footer from file footer.index.php -->
+        <div> 
+            <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/footer.php'; ?> 
+        </div>
+
+    </footer>
+   
     </body>
 </html>

@@ -87,7 +87,7 @@
     </div>
             <br><br>
             <h1>A Message from President Uchtdorf</h1><br>
-            <p>President Uchtdorf cautioned the world is full of self justification and narcissism, worldly values stress we look out for our own self interests. We are seeing a generation of all about me individuals with little care for others and their plight. The Lord however has stressed carrying for the poor and needy is one of the Four duties of the church as found in Doctrine and Covenants section 58 where we are issued a call to serve and are expected to answer. </p>
+            <p>President Uchtdorf cautioned the world is full of self justification and narcissism, worldly values stress we look out for our own self interests. We are seeing a generation of all about me individuals with little care for others and their plight. The Lord however has stressed caring for the poor and needy is one of the Four duties of the church as found in Doctrine and Covenants section 58 where we are issued a call to serve and are expected to answer. </p>
             
             
         
