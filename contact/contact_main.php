@@ -79,7 +79,7 @@
         </tr>
     </table>
 
-<label for="message">Message</label><br><textarea name="message" id="message" ><?php echo $message; ?></textarea><br>
+<label for="message">Message</label><br><textarea class="contact" name="message" id="message" ><?php echo $message; ?></textarea><br>
 
 <br>
 <p class="f">Security Code</p>

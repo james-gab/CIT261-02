@@ -293,8 +293,46 @@ input:not([type=submit]):not([type=file]) {
     background: rgba(255,255,255,0.5);
     margin: 0 0 1px 0;
 }                
-textarea {
+textarea.contact {
     height: 20em;
+    width: 35em;
+    
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 1px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 10px;
+
+}
+textarea.regprojshort {
+    height: 5em;
+    width: 35em;
+    
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 1px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 10px;
+
+}
+textarea.regprojlong {
+    height: 10em;
     width: 35em;
     
     border: 5px solid white; 
@@ -870,8 +908,16 @@ input:not([type=submit]):not([type=file]) {
     margin: 0 0 1px 0;
 }     
 
-textarea {
+textarea.contact {
     height: 20em;
+    width: 84%;
+}
+textarea.regprojshort {
+    height: 5em;
+    width: 84%;
+}
+textarea.regprojlong {
+    height: 10em;
     width: 84%;
 }
 
@@ -1109,8 +1155,16 @@ input:not([type=submit]):not([type=file]) {
     margin: 0 0 1px 0;
 }     
 
-textarea {
+textarea.contact {
     height: 20em;
+    width: 90%;
+}
+textarea.regprojshort {
+    height: 5em;
+    width: 90%;
+}
+textarea.regprojlong {
+    height: 10em;
     width: 90%;
 }
 

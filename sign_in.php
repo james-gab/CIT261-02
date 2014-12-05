@@ -45,7 +45,7 @@ and open the template in the editor.
         unset($_SESSION['SESS_LAST_NAME']);
     ?>
     <form class="reg" name="loginform" action="login_exec.php" method="post">
-        
+                
         <fieldset>
             <table>
                 <tr>

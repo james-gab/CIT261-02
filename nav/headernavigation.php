@@ -5,8 +5,8 @@
 
         <p class="buttonwrapper">
 <a class="boldbuttons01" href="/index.php"><span>Home</span></a> 
-<a class="boldbuttons" href="../kan1/sign_in.php" ><span>Sign In</span></a>
-<a class="boldbuttons" href="../kan1/index.php" ><span>Register</span></a>
+<a class="boldbuttons" href="../sign_in/sign_in.php" ><span>Sign In</span></a>
+<a class="boldbuttons" href="../signin/index.php" ><span>Register</span></a>
 <!--
 <a class="boldbuttons01" href="/w/p/projects_main.php" ><span>Projects</span></a>
 <a class="boldbuttons" href="/w/aj/about_main.php" ><span>About</span></a>

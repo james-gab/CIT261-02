@@ -59,30 +59,28 @@
         
     <div>           
             <p class="buttonwrappermain">
-<a class="boldbuttons01" href="/index.php"><span>Seeking Service</span></a> 
+                    <a class="boldbuttons01" href="op/vsr03.php"><span>Seeking Service</span></a> 
             </p><br>
-<p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/Help/Help.php" ><span>HELP!!!</span></a>
+            <p class="buttonwrappermain">
+                    <a class="boldbuttons01" href="/Help/Help.php" ><span>HELP!!!</span></a>
             </p><br>
-<p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/Registration/reg02.php" ><span>Reg02</span></a>
+            <p class="buttonwrappermain">
+                    <a class="boldbuttons01" href="" ><span>About</span></a>
             </p><br>
-<p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/Registration/sign02.php" ><span>sign2</span></a>
+            <p class="buttonwrappermain">
+                    <a class="boldbuttons01" href="signin/index.php" ><span>Sign In(index)</span></a>
             </p><br>
-<p class="buttonwrappermain">
-    <a class="boldbuttons01" href="/kan/index.php" ><span>Kan Index</span></a>
+            <p class="buttonwrappermain">
+                    <a class="boldbuttons01" href="signin/register.php" ><span>register</span></a>
             </p><br>
-<p class="buttonwrappermain">
-<a class="boldbuttons01" href="" ><span>About</span></a>
+            <p class="buttonwrappermain">
+                    <a class="boldbuttons01" href="signin/sign_in.php" ><span>Sign In</span></a>
             </p><br>
-<p class="buttonwrappermain">
-<a class="boldbuttons01" href="kan1/index.php" ><span>Kan(index) 11.22.2014</span></a>
-<a class="boldbuttons01" href="kan1/home.php" ><span>Kan(home) 11.22.2014</span></a>
-<a class="boldbuttons01" href="kan1/sign_in.php" ><span>Kan(sign_in) 11.22.2014</span></a>
+            <p class="buttonwrappermain">
+                    <a class="boldbuttons01" href="rqserv/reqserv.php" ><span>Register Project</span></a>
             </p><br>
-<p class="buttonwrappermain">
-<a class="boldbuttons01" href="/c/contact_main.php" ><span>Contact</span></a>
+            <p class="buttonwrappermain">
+                    <a class="boldbuttons01" href="/c/contact_main.php" ><span>Contact</span></a>
             </p>
     </div>
             <br><br>

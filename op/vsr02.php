@@ -16,30 +16,6 @@ Project author: gab James.
          
 <!-- calls CSS file -->
         <link href="../css/home_page.css" rel="stylesheet" type="text/css" media="screen" />
-        
-        <script>
-function showUser(str) {
-    if (str == "") {
-        document.getElementById("txtHint").innerHTML = "";
-        return;
-    } else { 
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange = function() {
-            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
-            }
-        }
-        xmlhttp.open("GET","getuser.php?q="+str,true);
-        xmlhttp.send();
-    }
-}
-</script>
 
     </head>
 
@@ -63,19 +39,21 @@ function showUser(str) {
     <main>
         <h1>Service&#32;Opportunities</h1>
         
-<!-- *************************change this************************************** -->
+<!-- *************************************************************** -->
         
-<form>
-<select name="users" onchange="showUser(this.value)">
-  <option value="">Select a project type:</option>
-  <option value="1">Yard assistance</option>
-  <option value="2">In Home Care</option>
-  <option value="3">**Make Something up**</option>
-  <option value="4">**Make Something up**</option>
-  </select>
-</form>
-<br>
-<div id="txtHint"><b>Project info will be listed here.</b></div>
+
+             <hr class="hr50">
+            
+                    <p class="imgleft1">
+                        <a href="">
+                            <img class="seven" src="../../image/_activities/activities_002_1.gif" alt="activities_0002"/></a>
+                    </p>
+                    <p class="right1">
+                        Type goes here.
+                        <br><a href="">more...</a>
+                    </p>
+
+            <hr class="hr50">
 
 
 
