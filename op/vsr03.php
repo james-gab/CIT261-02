@@ -70,12 +70,12 @@ function showUser(str) {
   <option value="">Select a project type:</option>
   <option value="1">Yard assistance</option>
   <option value="2">In Home Care</option>
-  <option value="3">**Make Something up**</option>
-  <option value="4">**Make Something up**</option>
+  <option value="3">Travel Assistance</option>
+  <!--<option value="4">**Make Something up**</option>-->
   </select>
 </form>
 <br>
-<div id="txtHint"><b>Project info will be listed here.</b></div>
+<div class = "tablerow" id="txtHint"><b>Project info will be listed here.</b></div>
 
 
 

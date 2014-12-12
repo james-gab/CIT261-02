@@ -56,7 +56,7 @@
     $_SESSION['SESS_FIRST_NAME'] = $member['username'];
     $_SESSION['SESS_LAST_NAME'] = $member['password'];
     session_write_close();
-    header("location: home.php");
+    header("location: register.php");
     exit();
     }else {
     //Login failed

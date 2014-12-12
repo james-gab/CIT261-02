@@ -9,7 +9,7 @@ $teaserdesc = $_POST['teaserdesc'];
 $fulldesc = $_POST['fulldesc'];
 $contactname = $_POST['contactname'];
 $contactnum = $_POST['contactnum'];
-mysql_query("INSERT INTO member(ptype, pname, teaserdesc, fulldesc, contactname, contactnum)VALUES('$ptype', '$pname', '$teaserdesc', '$fulldesc', '$contactname', '$contactnum')");
+mysql_query("INSERT INTO project(ptype, pname, teaserdesc, fulldesc, contactname, contactnum)VALUES('$ptype', '$pname', '$teaserdesc', '$fulldesc', '$contactname', '$contactnum')");
 header("location: index.php?remarks=success");
 mysql_close($con);
 ?>
