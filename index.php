@@ -56,7 +56,7 @@
     -->    
     <p class="homepg">    iServe is here to help you serve.<br>Select Sign In to get started.<br><br>Don't have an account yet? <br>Choose the Registration button and sign up now.<!-- place a welcome statement here -->    </p>
         
-        
+<!--        
     <div>           
             <p class="buttonwrappermain">
                     <a class="boldbuttons01" href="op/vsr03.php"><span>Seeking Service</span></a> 
@@ -83,7 +83,7 @@
                     <a class="boldbuttons01" href="/c/contact_main.php" ><span>Contact</span></a>
             </p>
     </div>
-            <br><br>
+            <br><br>-->
             <h1>A Message from President Uchtdorf</h1><br>
             <p>President Uchtdorf cautioned the world is full of self justification and narcissism, worldly values stress we look out for our own self interests. We are seeing a generation of all about me individuals with little care for others and their plight. The Lord however has stressed caring for the poor and needy is one of the Four duties of the church as found in Doctrine and Covenants section 58 where we are issued a call to serve and are expected to answer. </p>
             

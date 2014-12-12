@@ -7,6 +7,27 @@ require_once('auth.php');
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <title>Request&#32;Service&#32;page&#32;&#124;&#32;iServe&#46;com</title>
         <link href="../css/home_page.css" rel="stylesheet" type="text/css"/>
+        <style>
+            #notify {animation-duration: 3s; animation-name: slidein;}
+.notify {animation-duration: 3s; animation-name: slidein;}
+p.notify {animation-duration: 3s; animation-name: slidein;}
+notify {animation-duration: 3s; animation-name: slidein;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+            
+        </style>
+            
     </head>
 
     <body>    
@@ -41,11 +62,10 @@ require_once('auth.php');
 
        <?php
     if(!empty($reply)){
-      echo "<p class='center'>$reply</p>";
+      echo "<p class='notify'>$reply</p>";
     }
     unset($reply);
 ?> 
-
             
             <!-- *********** this does not work *************-->
             
@@ -56,12 +76,11 @@ require_once('auth.php');
   <option value="1">Yard Assistance</option>
   <option value="2">In Home Care</option>
   <option value="3">Travel Assistance</option>
-  <!--<option value="4">**Make Something up 4**</option>-->
   </select>
 
-    <table class="contact"> 
+    <table> 
         <tr>
-            <td class="center">Your Project Information </td>
+            <td class="notify">Your Project Information </td>
             <td></td>
         </tr>
         <tr>
@@ -77,20 +96,23 @@ require_once('auth.php');
             <td class="r"><label for="contactnum">Contact Number:</label></td>
             <td><input type="text" name="contactnum" id="contactnum" value="<?php echo $contactnum ?>" /></td>
         </tr>
+    </table>
+        <table>
         <tr>
-            <td class="r"><label for="left">Short Description:</label></td>
-                <td><textarea class="regprojshort" name="teaserdesc" id="teaserdesc" ><?php echo $teaserdesc; ?></textarea></td>
+            <td class="r"><label for="teaserdesc">Short Description:</label></td>
+                <td class="regprojshort"><textarea name="teaserdesc" id="teaserdesc" ><?php echo $teaserdesc; ?></textarea></td>
         </tr>
         <tr>
-            <td class="r"><label for="left">Full Description: </label></td>
-                <td><textarea class="regprojlong" name="fulldesc" id="fulldesc" ><?php echo $fulldesc; ?></textarea></td>
+            <td class="r"><label for="fulldesc">Full Description: </label></td>
+                <td ><textarea class="regprojlong" name="fulldesc" id="fulldesc" ><?php echo $fulldesc; ?></textarea></td>
         </tr>
         <tr>
             <td><input type="submit" name="action" id="action" value="Send"/></td>
             <td></td>
     </tr>
+        </table>
         
-    </table>
+
 <!--    <p class="center"><a href="index.php"></a></p>
 -->
 

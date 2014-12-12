@@ -61,11 +61,11 @@ function showUser(str) {
 
 <!-- Main body -->
     <main>
-        <h1>Service&#32;Opportunities</h1>
+        <h2>Service&#32;Opportunities</h2>
         
 <!-- *************************change this************************************** -->
         
-<form>
+<form class="serviceform">
 <select name="users" onchange="showUser(this.value)">
   <option value="">Select a project type:</option>
   <option value="1">Yard assistance</option>
