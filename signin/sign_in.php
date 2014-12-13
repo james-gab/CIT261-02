@@ -7,6 +7,8 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].'/css/meta.php';?>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].'../css/meta.php';?>
         <title>Sign&#32;in&#32;page&#32;&#124;&#32;iServe&#46;com</title>
         
         <link href="../css/home_page.css" rel="stylesheet" type="text/css"/>

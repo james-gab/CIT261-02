@@ -6,6 +6,8 @@ require_once('auth.php');
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <title>Registration&#32;page&#32;&#124;&#32;iServe&#46;com</title>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].'/css/meta.php';?>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].'../css/meta.php';?>
         <link href="../css/home_page.css" rel="stylesheet" type="text/css"/>
         <style type="text/css">
             <!--

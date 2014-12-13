@@ -4,29 +4,11 @@ require_once('auth.php');
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].'/css/meta.php';?>
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].'../css/meta.php';?>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <title>Request&#32;Service&#32;page&#32;&#124;&#32;iServe&#46;com</title>
         <link href="../css/home_page.css" rel="stylesheet" type="text/css"/>
-        <style>
-            #notify {animation-duration: 3s; animation-name: slidein;}
-.notify {animation-duration: 3s; animation-name: slidein;}
-p.notify {animation-duration: 3s; animation-name: slidein;}
-notify {animation-duration: 3s; animation-name: slidein;}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-            
-        </style>
             
     </head>
 
@@ -100,7 +82,7 @@ notify {animation-duration: 3s; animation-name: slidein;}
         <table>
         <tr>
             <td class="r"><label for="teaserdesc">Short Description:</label></td>
-                <td class="regprojshort"><textarea name="teaserdesc" id="teaserdesc" ><?php echo $teaserdesc; ?></textarea></td>
+                <td><textarea class="regprojshort" name="teaserdesc" id="teaserdesc" ><?php echo $teaserdesc; ?></textarea></td>
         </tr>
         <tr>
             <td class="r"><label for="fulldesc">Full Description: </label></td>

@@ -7,6 +7,7 @@ Project author: gab James.
 
     <head>
 
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].'/css/meta.php';?>
         <?php include_once $_SERVER['DOCUMENT_ROOT'].'../css/meta.php';?>
         <title>Service&#32;Opportunities&#32;&#124;&#32;iServe&#46;com</title>
         

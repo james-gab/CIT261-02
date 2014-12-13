@@ -7,8 +7,9 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
-        <link href="../css/login_css.css" rel="stylesheet" type="text/css" media="screen" />
+        <title>Sign in page</title>
+        <link href="../css/login_css.css" rel="stylesheet" type="text/css" />
+        <link href="../css/home_page.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="main">
