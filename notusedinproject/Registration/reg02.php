@@ -3,7 +3,7 @@
 <head>
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title>Register</title>
-      <link href="../css/home_page.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../css/home_page.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
      <header>

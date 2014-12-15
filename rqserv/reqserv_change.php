@@ -43,10 +43,10 @@ require_once('auth.php');
         <form class="contact" method="post" action="index.php" id="contactform">
 
        <?php
-    if(!empty($reply)){
-      echo "<p class='notify'>$reply</p>";
+    if(!empty($remarks)){
+      echo "<p class='notify'>$remarks</p>";
     }
-    unset($reply);
+    unset($remarks);
 ?> 
             
             <!-- *********** this does not work *************-->

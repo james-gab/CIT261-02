@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     
     <head>
@@ -20,7 +21,20 @@
 <!-- calls Google google_analyticstracking.js -->
 <!--        <script src="js/google_analyticstracking.js" type="text/javascript"></script>
 -->
-
+<script>
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+</script>
     </head>
     
     
@@ -45,6 +59,8 @@
 
 
         </header>
+
+
 
 
 <!-- Main body -->
@@ -92,7 +108,11 @@
             <p class="center1">President Uchtdorf cautioned the world is full of self justification and narcissism, worldly values stress we look out for our own self interests. We are seeing a generation of all about me individuals with little care for others and their plight. The Lord however has stressed caring for the poor and needy is one of the Four duties of the church as found in Doctrine and Covenants section 58 where we are issued a call to serve and are expected to answer. </p>
             
             
-        
+       
+            
+            <p><button onclick="clickCounter()" type="button">Click me! for Local Storage</button></p>
+<div id="result"></div>
+<p>Click the button to see the counter increase for an example of local storage.</p>
     </main>
 
     
@@ -100,6 +120,7 @@
 <!--Calls Footer from file footer.index.php -->
         <div> 
             <?php include $_SERVER['DOCUMENT_ROOT'].'/nav/footer.php'; ?> 
+            
         </div>
     </footer>
         

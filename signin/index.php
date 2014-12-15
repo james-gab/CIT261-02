@@ -92,9 +92,7 @@ and open the template in the editor.
         
         <h2>Registration Page</h2>
         <br>
-        
-        
-        
+   
 <!--
     <form name="reg" action="code_exec.php" onsubmit="return validateForm()" method="post">
     <table width="274" border="0" align="center" cellpadding="2" cellspacing="0">

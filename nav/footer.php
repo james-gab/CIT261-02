@@ -9,4 +9,10 @@
     <li class="ft02"><a href="http://validator.w3.org/check/referer" target="_blank"><img style="border:0;width:117px;height:31px" src="/image/index_footer/w3c_html_val.gif" alt="Valid HTML5!"/></a></li>
     <li class="ft02"><a href="http://validator.w3.org/checklink?uri=http%3A%2F%2Fwww.iserve.jfcguitars.com%2F&amp;hide_type=all&amp;recursive=on&amp;depth=100&amp;check=Check" target="_blank"><img style="border:0;width:117px;height:31px" src="/image/index_footer/w3c_link_checker.gif" alt="Valid Link!"/></a></li>
 </ul>
+<ul class="ft1">
+<li class="ft02"><a href="../notusedinproject/Registration/reg02.php">reg02</a></li>
+<li class="ft02"><a href="../notusedinproject/searchsp.php">searchsp</a></li>
+<li class="ft02"><a href="../notusedinproject/report03.php">report03</a></li>
+</ul>
+
 <span class="cr">Copyright &COPY; 2014 by JFC GUITARS&#46;All rights reserved&#46;</span>

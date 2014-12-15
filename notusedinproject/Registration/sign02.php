@@ -47,9 +47,9 @@ if ($uploadOk == 0) {
 <head>
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title>Sign in 2</title>
-      <link href="../css/home_page.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../css/home_page.css" rel="stylesheet" type="text/css" media="screen" />
       <!--Stylesheets-->
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
 <link href="fonts/pacifico/stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
