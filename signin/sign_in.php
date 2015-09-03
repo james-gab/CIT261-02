@@ -41,7 +41,7 @@ and open the template in the editor.
     <?php
         //Start session
         session_start();	
-        //Unset the variables stored in session
+        //Unset the variables stored in session purpose disallow the user to go back as if it still logged in
         unset($_SESSION['SESS_MEMBER_ID']);
         unset($_SESSION['SESS_FIRST_NAME']);
         unset($_SESSION['SESS_LAST_NAME']);
